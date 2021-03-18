@@ -52,9 +52,7 @@ public class ListNode {
 
     @Override
     public String toString() {
-        return "ListNode{" +
-                "object=" + object +
-                ", next=" + next +
-                '}';
+        return object +
+                ", next=" + next;
     }
 }

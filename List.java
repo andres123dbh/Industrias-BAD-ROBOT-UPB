@@ -63,12 +63,7 @@ public class List implements ListInterface, Iterable<ListNode> {
 
     @Override
     public String toString() {
-        return "List{" +
-                "inode=" + inode +
-                ", head=" + head +
-                ", tail=" + tail +
-                ", size=" + size +
-                '}';
+        return "Camino a tomar: Inicio=" + head ;
     }
 
     @Override
